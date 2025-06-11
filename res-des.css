@@ -52,6 +52,23 @@ p {
     color: var(--TransparentWhite);
 }
 
+a {
+    font-family: 'Lexend Deca', Arial, Helvetica, sans-serif;
+    background-color: white;
+    padding: 10px 25px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    text-decoration: none;
+    color: var(--green);
+    font-weight: bolder;
+}
+
+a:hover {
+    color: white;
+    background-color: var(--green);
+    border: 2px solid white;
+    transition: 0.5s ease;
+}
 @media(max-width: 600px) {
     main {
         width: 80%;
