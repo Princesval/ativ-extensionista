@@ -23,7 +23,6 @@ body {
 }
 
 main {
-
     width: 60%;
     box-sizing: border-box;
     padding: 50px;
@@ -32,6 +31,7 @@ main {
     background-color: transparent;
     border-radius: 30px;
     background-color: var(--orange);
+    margin-top: 20px;
 }
 
 h1 {
@@ -44,10 +44,11 @@ h1 {
 h2 {
     color: var(--VeryLightGray);
     font-family: 'Big Shoulders Display', Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
 }
 
 p {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     text-align: justify;
     font-family: 'Lexend Deca', Arial, Helvetica, sans-serif;
     color: var(--TransparentWhite);
